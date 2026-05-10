@@ -1,0 +1,71 @@
+.admin {
+    min-height: 100vh;
+    padding: 100px 8%;
+    background: linear-gradient(180deg, #020617, #0b1224);
+    color: #ffffff;
+}
+
+.admin h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #38bdf8;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    opacity: 0.8;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 18px;
+    text-align: center;
+}
+
+.admin-action {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.approve-btn {
+    width: 70px;
+    padding: 6px;
+    background: green;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.reject-btn {
+    width: 70px;
+    padding: 6px;
+    background: red;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.delete-btn {
+    width: 70px;
+    padding: 6px;
+    background: gray;
+    color: #ffffff;
+    border-radius: 6px;
+}
